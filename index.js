@@ -129,3 +129,12 @@ function checkScroll()
         intialisebars();
     }
 }
+
+
+//------------------------------------------------------------------------------------------------
+
+
+var submitButton = document.getElementById("submit-button");
+submitButton.addEventListener("click",()=>{
+    alert("Sent message successfully!");
+})
