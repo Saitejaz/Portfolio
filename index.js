@@ -134,7 +134,31 @@ function checkScroll()
 //------------------------------------------------------------------------------------------------
 
 
-var submitButton = document.getElementById("submit-button");
-submitButton.addEventListener("click",()=>{
-    alert("Sent message successfully!");
-})
+
+// function sendEmail (){
+//     var name = document.getElementById("name").value;
+//     var email = document.getElementById("email").value;
+//     var emailmessage = document.getElementById("email-message").value;
+//     Email.send({
+//         Host : "smtp.gmail.com",
+//         Username : "ffamily932@gmail.com",
+//         Password : "rajeshwar",
+//         To : '19r01a05a1@cmritonline.ac.in',
+//         From : email,
+//         Subject : "Test Query form sending mail",
+//         Body : "And this is the body"
+//     }).then(
+//       message => alert(message)
+//     );
+
+// }
+// var submitButton = document.getElementById("submit-button");
+
+
+
+
+// submitButton.addEventListener("click",(e)=>{
+//     e.preventDefault();
+    
+
+//     alert(name)
